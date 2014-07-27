@@ -1,0 +1,102 @@
+/**
+ * Applied to VRangeSliderBar.
+ */
+.gwt-VRangeSliderBar-shell {
+  border: 2px solid #faf9f7;
+  border-right: 2px solid #848280;
+  border-bottom: 2px solid #848280;
+  background-color: #efebe7;
+  height: 36px;
+  width: 50%;
+}
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-line {
+  border: 1px solid rgb(138, 226, 52);
+  background-color:rgb(138, 226, 52);
+  height: 4px;
+  width: 95%;
+  top: 24px;
+  overflow: hidden;
+}
+
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-progress{
+  border: 1px solid #F5FFFA;
+  background-color: #F5FFFA;
+  height: 4px;
+  width: 95%;
+  top: 24px;
+  overflow: hidden;
+}
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-knobmax {
+  top: 16px;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+  background-image: url(images/knob_blue.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  
+}
+
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-knobmax-inactive {
+  top: 16px;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+  background-image: url(images/knob_blue.png);
+  /*background-position: -11px 0px;*/
+    background-position: 0px 0px;
+    background-repeat: no-repeat;
+  
+}
+
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-knobmin {
+  top: 16px;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+  background-image: url(images/knob_red.png);
+  background-position: 0px 0px;
+  background-repeat: no-repeat;
+  
+}
+
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-knobmin-inactive {
+  top: 16px;
+  width: 11px;
+  height: 21px;
+  z-index: 1;
+  cursor: pointer;
+  background-image: url(images/knob_red.png);
+ /* background-position: -11px 0px;*/
+ background-position: 0px 0px;
+  background-repeat: no-repeat;
+  
+}
+
+
+
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-tick {
+  top: 13px;
+  width: 1px;
+  height: 10px;
+  background: black;
+  overflow: hidden;
+}
+
+
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-label {
+  top: 4px;
+  font-size: 10px;
+  cursor: default;
+}
+
+.gwt-VRangeSliderBar-shell-focused {
+	
+}
+.gwt-VRangeSliderBar-shell .gwt-VRangeSliderBar-line-sliding {
+  background-color: #32CD32;
+  cursor: pointer;
+}
